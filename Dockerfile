@@ -1,4 +1,4 @@
 FROM wordpress
-RUN rm -rf /etc/apache2/apache2.conf
+#RUN rm -rf /etc/apache2/apache2.conf
 COPY apache2.conf /etc/apache2/apache2.conf
 #RUN echo'wordpress' >> /etc/apache2/apache2.conf
